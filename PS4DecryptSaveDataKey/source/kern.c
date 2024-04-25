@@ -1,4 +1,4 @@
-#include "kern.h"
+#include "kern.c"
 
 Inline uint64_t readCr0(void) {
 	uint64_t cr0;
